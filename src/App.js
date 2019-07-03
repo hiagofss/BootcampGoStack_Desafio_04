@@ -1,8 +1,13 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
-  return <h1>Iniando Desafio 04</h1>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
